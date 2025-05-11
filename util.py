@@ -44,7 +44,7 @@ def recognize(img, db_path):
   else:
     embeddings_unknown = embeddings_unknown[0]
 
-  db_dir = sorted(os.listdir(db_path))
+  db_dir = sorted(os.listdir(db_path)) 
 
   match = False
   j = 0
